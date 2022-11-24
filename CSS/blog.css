@@ -14,8 +14,11 @@
 
 #blog img {
     width: 250px;
-   /* max-width: 280px; */
+    height: 186px;
+    border-radius: 5%;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
 
-   height: 186px;
-
+#blog img:hover {
+    opacity: 0.8;
 }
